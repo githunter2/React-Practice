@@ -1,0 +1,151 @@
+.Card {
+    width: 330px;
+    height: 500px;
+    /* background-color: cornflowerblue; */
+    position: relative;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.Card img {
+    width: 330px;
+    margin-top: 20px;
+}
+
+.endirim {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #EA2027;
+    font-size: 11.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    top: 205px;
+    left: 10px;
+}
+
+.likes {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.likes i {
+    color: #eccc68;
+    font-size: 14px;
+    margin-right: 2px;
+}
+
+.likes p {
+    margin-left: 15px;
+    font-size: 13px;
+    color: #0652DD;
+    margin-top: 2px;
+}
+
+.producName {
+    margin-left: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.buying {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.price {
+    width: 55%;
+    margin-left: 20px;
+    border-right: 1px solid gray;
+}
+
+.price h4 {
+    font-size: 22px;
+}
+
+.price small {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.credit {
+    width: 40%;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.credit p:first-child {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.credit p:last-child {
+    font-size: 13px;
+    margin-top: 7px;
+    color: gray;
+}
+
+.credit p:last-child span {
+    font-size: 13px;
+    font-weight: 800;
+    color: black;
+}
+
+.click {
+    width: 100%;
+    margin: 20px 0 0 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: none;
+}
+
+.click button {
+    padding: 14px 45px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #EA2027;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.heartBack {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.fa-heart {
+    font-size: 30px;
+}
+
+.fa-scale-unbalanced-flip {
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.Card:hover {
+    border: 1px solid gray;
+    box-shadow: 0px 0px 10px 2px gray;
+}
+
+.Card:hover .click {
+    display: flex;
+}

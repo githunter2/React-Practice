@@ -1,0 +1,55 @@
+.Header header {
+    width: 100%;
+    height: 70px;
+    background-color: dodgerblue;
+}
+
+.Header nav {
+    width: 100%;
+    height: 70px;
+    background-color: #f1f2f6;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dfe4ea;
+}
+
+.headLeft {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.headLeft i {
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.headLeft img {
+    margin-right: 15px;
+}
+
+.headLeft span {
+    font-weight: 600;
+    font-size: 23px;
+    font-style: italic;
+}
+
+.headLeft {
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.headRight i {
+    font-size: 23px;
+    margin-right: 10px;
+    border: 1px solid lightsteelblue;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.headRight i:hover {
+    color: crimson;
+    cursor: pointer;
+}
